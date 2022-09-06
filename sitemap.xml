@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://example.com/posts/obi-wan-kenobi/</loc>
+    <lastmod>2022-05-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2022-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2022-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2022-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/page-list/</loc>
+    <lastmod>2022-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2022-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/upcoming/</loc>
+    <lastmod>2022-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/past-releases/</loc>
+    <lastmod>2022-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/andor/</loc>
+    <lastmod>2022-09-21</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/the-bad-batch/</loc>
+    <lastmod>2022-09-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/ahsoka/</loc>
+    <lastmod>2023-05-01</lastmod>
+  </url>
+</urlset>

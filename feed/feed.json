@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Your Blog Name",
+  "language": "en",
+  "home_page_url": "https://example.com/",
+  "feed_url": "https://example.com/feed/feed.json",
+  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "author": {
+    "name": "Your Name Here",
+    "url": "https://example.com/about-me/"
+  },
+  "items": [{
+      "id": "https://example.com/posts/ahsoka/",
+      "url": "https://example.com/posts/ahsoka/",
+      "title": "Ahsoka",
+      "content_html": "<p>Ahsoka is an upcoming American television limited series developed by Jon Favreau and Dave Filoni for Disney+ scheduled to be released in 2023</p>\n",
+      "date_published": "2023-05-01T00:00:00Z"
+    },{
+      "id": "https://example.com/posts/the-bad-batch/",
+      "url": "https://example.com/posts/the-bad-batch/",
+      "title": "The Bad Batch S2",
+      "content_html": "<p>The Bad Batch Season 2 is the second season of Star Wars: The Bad Batch, which was announced on August 5, 2021.\nThe release date has been September 28, 2022 though the series was not included when the listings for September 2022 were released so may be delayed.</p>\n<h2 id=\"trailer\" tabindex=\"-1\">Trailer <a class=\"direct-link\" href=\"https://example.com/posts/the-bad-batch/#trailer\" aria-hidden=\"true\">#</a></h2>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6JX5OW8cOec\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+      "date_published": "2022-09-28T00:00:00Z"
+    },{
+      "id": "https://example.com/posts/andor/",
+      "url": "https://example.com/posts/andor/",
+      "title": "Andor",
+      "content_html": "<p>The story of Rebel spy Cassian Andor's formative years of the Rebellion and his difficult missions for the cause.</p>\n<h2 id=\"release-info\" tabindex=\"-1\">Release info <a class=\"direct-link\" href=\"https://example.com/posts/andor/#release-info\" aria-hidden=\"true\">#</a></h2>\n<p>Andor premieres on Disney Plus on September 21, with the first three episodes available immediately. The show then goes to a weekly release</p>\n<h2 id=\"trailer\" tabindex=\"-1\">Trailer <a class=\"direct-link\" href=\"https://example.com/posts/andor/#trailer\" aria-hidden=\"true\">#</a></h2>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/cKOegEuCcfw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n",
+      "date_published": "2022-09-21T00:00:00Z"
+    },{
+      "id": "https://example.com/posts/obi-wan-kenobi/",
+      "url": "https://example.com/posts/obi-wan-kenobi/",
+      "title": "Obi-Wan Kenobi",
+      "content_html": "<p>Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy</p>\n<h2 id=\"trailer\" tabindex=\"-1\">Trailer <a class=\"direct-link\" href=\"https://example.com/posts/obi-wan-kenobi/#trailer\" aria-hidden=\"true\">#</a></h2>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3Yh_6_zItPU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n",
+      "date_published": "2022-05-27T00:00:00Z"
+    }
+  ]
+}

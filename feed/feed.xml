@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Your Blog Name</title>
+	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
+	<updated>2023-05-01T00:00:00Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Ahsoka</title>
+		<link href="https://example.com/posts/ahsoka/"/>
+		<updated>2023-05-01T00:00:00Z</updated>
+		<id>https://example.com/posts/ahsoka/</id>
+		<content type="html">&lt;p&gt;Ahsoka is an upcoming American television limited series developed by Jon Favreau and Dave Filoni for Disney+ scheduled to be released in 2023&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Bad Batch S2</title>
+		<link href="https://example.com/posts/the-bad-batch/"/>
+		<updated>2022-09-28T00:00:00Z</updated>
+		<id>https://example.com/posts/the-bad-batch/</id>
+		<content type="html">&lt;p&gt;The Bad Batch Season 2 is the second season of Star Wars: The Bad Batch, which was announced on August 5, 2021.
+The release date has been September 28, 2022 though the series was not included when the listings for September 2022 were released so may be delayed.&lt;/p&gt;
+&lt;h2 id=&quot;trailer&quot; tabindex=&quot;-1&quot;&gt;Trailer &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/the-bad-batch/#trailer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/6JX5OW8cOec&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+	</entry>
+	
+	<entry>
+		<title>Andor</title>
+		<link href="https://example.com/posts/andor/"/>
+		<updated>2022-09-21T00:00:00Z</updated>
+		<id>https://example.com/posts/andor/</id>
+		<content type="html">&lt;p&gt;The story of Rebel spy Cassian Andor&#39;s formative years of the Rebellion and his difficult missions for the cause.&lt;/p&gt;
+&lt;h2 id=&quot;release-info&quot; tabindex=&quot;-1&quot;&gt;Release info &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/andor/#release-info&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Andor premieres on Disney Plus on September 21, with the first three episodes available immediately. The show then goes to a weekly release&lt;/p&gt;
+&lt;h2 id=&quot;trailer&quot; tabindex=&quot;-1&quot;&gt;Trailer &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/andor/#trailer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cKOegEuCcfw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Obi-Wan Kenobi</title>
+		<link href="https://example.com/posts/obi-wan-kenobi/"/>
+		<updated>2022-05-27T00:00:00Z</updated>
+		<id>https://example.com/posts/obi-wan-kenobi/</id>
+		<content type="html">&lt;p&gt;Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy&lt;/p&gt;
+&lt;h2 id=&quot;trailer&quot; tabindex=&quot;-1&quot;&gt;Trailer &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/obi-wan-kenobi/#trailer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3Yh_6_zItPU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
+</feed>
