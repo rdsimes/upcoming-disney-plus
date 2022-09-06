@@ -13,7 +13,8 @@ eleventyNavigation:
 {% import "release.njk" as funcs %}
 {{ funcs.release(next.data.title, next.data.page, next.data.tags, next.templateContent, collections) }}
 
-<h1>Upcoming {% if maxPosts == 1 %}Release{% else %}{{ maxPosts }} Releases{% endif %}</h1>
+<h1>
+  Upcoming {% if maxPosts == 1 %}Release{% else %}{{ maxPosts }} Releases{% endif %}</h1>
 
 {% set postslist = collections.posts | head(-10) %}
 {% set postslistCounter = collections.posts | length %}
