@@ -6,7 +6,7 @@ tags:
   - past releases
 layout: layouts/post.njk
 ---
-Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy
+Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy.
 
 ## Trailer
 
