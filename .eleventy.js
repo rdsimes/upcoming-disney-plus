@@ -8,10 +8,14 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
+const util = require('util');
+
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("js");
+  
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
@@ -39,10 +43,44 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
+
+  eleventyConfig.addFilter("nextRelease", (array) => {
+    if(!Array.isArray(array) || array.length === 0) {
+      return null;
+    }
+    var sorted = array.sort(function(a,b){
+      // Turn your strings into dates, and then subtract them
+      // to get a value that is either negative, positive, or zero.
+      return new Date(a.date) - new Date(b.date);
+    });
+    var future = sorted.filter(a => a.date > new Date());
+    return future[0];
+    });
+
+    eleventyConfig.addFilter("deb", (array) => {
+      if(!Array.isArray(array) || array.length === 0) {
+        return null;
+      }
+      var sorted = array.sort(function(a, b){
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+        return new Date(a.date) - new Date(b.date);
+      });
+      var future = sorted
+        .filter(a => a.date > new Date())
+        .map(a => a.date);
+      return util.inspect(future);
+    });
+
   // Return the smallest number argument
   eleventyConfig.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
   });
+
+  eleventyConfig.addFilter("log", (...args) => {
+    return util.inspect(args);
+  });
+
 
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
@@ -92,6 +130,8 @@ module.exports = function(eleventyConfig) {
     ui: false,
     ghostMode: false
   });
+
+ // console.log(collections);
 
   return {
     // Control which files Eleventy will process
