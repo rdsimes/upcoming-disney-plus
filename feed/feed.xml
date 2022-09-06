@@ -50,7 +50,7 @@ The release date has been September 28, 2022 though the series was not included 
 		<link href="https://example.com/posts/obi-wan-kenobi/"/>
 		<updated>2022-05-27T00:00:00Z</updated>
 		<id>https://example.com/posts/obi-wan-kenobi/</id>
-		<content type="html">&lt;p&gt;Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy&lt;/p&gt;
+		<content type="html">&lt;p&gt;Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy.&lt;/p&gt;
 &lt;h2 id=&quot;trailer&quot; tabindex=&quot;-1&quot;&gt;Trailer &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/obi-wan-kenobi/#trailer&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3Yh_6_zItPU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </content>

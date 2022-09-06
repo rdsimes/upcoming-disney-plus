@@ -31,7 +31,7 @@
       "id": "https://example.com/posts/obi-wan-kenobi/",
       "url": "https://example.com/posts/obi-wan-kenobi/",
       "title": "Obi-Wan Kenobi",
-      "content_html": "<p>Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy</p>\n<h2 id=\"trailer\" tabindex=\"-1\">Trailer <a class=\"direct-link\" href=\"https://example.com/posts/obi-wan-kenobi/#trailer\" aria-hidden=\"true\">#</a></h2>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3Yh_6_zItPU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n",
+      "content_html": "<p>Obi-Wan Kenobi is an American television miniseries created for the streaming service Disney+. It is part of the Star Wars franchise and stars Ewan McGregor as Obi-Wan Kenobi, reprising his role from the Star Wars prequel trilogy.</p>\n<h2 id=\"trailer\" tabindex=\"-1\">Trailer <a class=\"direct-link\" href=\"https://example.com/posts/obi-wan-kenobi/#trailer\" aria-hidden=\"true\">#</a></h2>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3Yh_6_zItPU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>\n",
       "date_published": "2022-05-27T00:00:00Z"
     }
   ]
